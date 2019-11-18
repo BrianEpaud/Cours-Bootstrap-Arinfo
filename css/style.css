@@ -1,0 +1,23 @@
+.slider-image-1{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    );    
+   
+}
+.slider-image-2{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ); 
+}
+.slider-image-3{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    );
+}
+.overlay{
+    background: rgba(61, 61, 61, 0.129);
+    
+}

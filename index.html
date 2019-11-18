@@ -36,18 +36,18 @@
 <!-- ON CREE LA NAVBAR EN CONSULTANT LA DOCUMENTATION OFFICIELLE
  -->
 <!-- ON EXPLIQUE LA CREATION RAPIDE DES BALISES ASSOCIEES AUX CLASSES -->
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
         <a href="index" class="navbar-brand">
             <img src="/img/logo.png" width="80px" alt="">
         </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="navbarCollapse">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a href="index.html" class="nav-link text-uppercase">Accueil</a>
+                    <a href="index.html" class="nav-link text-uppercase px-3">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a href="services.html" class="nav-link text-uppercase px-3">Le centre de formation</a>
@@ -56,12 +56,67 @@
                     <a href="courses.html" class="nav-link text-uppercase px-3">Formations</a>
                 </li>
                 <li class="nav-item border-left">
-                    <a href="contacts.html" class="nav-link text-uppercase px-3">Contact</a>
+                    <a href="contacts.html" class="nav-link text-uppercase px-3 bg-info rounded text-white">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<!-- CAROUSEL  -->
+
+<section id="slider">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="height:550px">
+            <div class="carousel-item active">
+                <img class="d-block w-100 h-50 slider-image-1 " src="/img/image2.jpg" alt="First slide">
+                <div class="carousel-caption text-right ">
+                    <h1 class="display-3">Développeurs Web</h1>
+                    <p class="lead">Formez vous aux différents langages informatiques pour réaliser des sites web
+                        dernières générations ! </p>
+                    <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 h-50" src="/img/image2.jpg" alt="First slide">
+                <div class="carousel-caption text-right ">
+                    <h1 class="display-3">Designer Web</h1>
+                    <p class="lead">Formez vous aux différents logiciels de créations et devenez le futur Philippe
+                        STARCK ! </p>
+                    <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img class="d-block w-100 h-50" src="/img/image3.jpg" alt="First slide">
+                <div class="carousel-caption text-right ">
+                    <h1 class="display-3">Architecte</h1>
+                    <p class="lead">Maîtrisez les différents logiciels de dessin pour la constructions bâtiments et
+                        donnez vie à vos projets ! </p>
+                    <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+
+
+        
+    </div>
+</section>
+
+
+
 
 <body>
 
@@ -69,13 +124,47 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 
 </html>
+
+
+
+<!-- <div class="carousel-inner">
+            <div class="carousel-item slider-image-1  active">
+                <div class="container">
+                    <div class="carousel-caption text-right ">
+                      
+                        
+                        <h1 class="display-3">Développeurs Web</h1>
+                        <p class="lead">Formez vous aux différents langages informatiques pour réaliser des sites web dernières générations ! </p>
+                        <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item slider-image-2">
+                <div class="container">
+                    <div class="carousel-caption ">
+                        <h1 class="display-3">Désigner Web</h1>
+                        <p class="lead">Formez vous aux différents logiciels de créations et devenez le futur Philippe STARCK ! </p>
+                        <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item slider-image-3">
+                <div class="container">
+                    <div class="carousel-caption text-right mb-5">
+                        <h1 class="display-3">Architecte</h1>
+                        <p class="lead">Maîtrisez les différents logiciels de dessin pour la constructions bâtiments et donnez vie à vos projets ! </p>
+                        <a href="#" class="btn btn-info btn-lg">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
