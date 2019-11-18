@@ -1,23 +1,28 @@
 .slider-image-1{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    );    
-   
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ),url("/img/image2.jpg");  
+   height: 550px;
+   background-position: center;
+   background-size: cover;
 }
 .slider-image-2{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ); 
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ),url("/img/image1.jpg");    
+ height: 550px;
+ background-position: center;
+ background-size: cover;
 }
 .slider-image-3{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    );
-}
-.overlay{
-    background: rgba(61, 61, 61, 0.129);
-    
+ 
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+  ),url("/img/image3.jpg");     
+ height: 550px;
+ background-position: center;
+ background-size: cover; 
 }
