@@ -20,7 +20,7 @@
     <title>Arinfo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/img/logo.png" />
+    <link rel="icon" type="image/png" href="/img/logo-icone.png" />
     <link rel="stylesheet" href="/css/style.css">
     <!-- =============================  2   ========================================================================= -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -41,7 +41,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light py-3">
     <div class="container">
         <a href="index.html" class="navbar-brand">
-            <img src="/img/logo.png" width="80px" alt="">
+                <img src="/img/logo2.png" width="150px" alt="">
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -201,7 +201,10 @@
                 <img src="./img/web.jpg" alt="" class="img-fluid rounded">
             </div>
         </div>
-        <!-- ON AJOUTE DES PROPRIETE FLEX POUR CHANGER LA POSITION DES ELEMENTS DE LA DIV  -->
+        <!-- ON AJOUTE DES PROPRIETE FLEX POUR CHANGER L'ORDRE DES  DIV  -->
+        <!-- FLEX MD ROW POUR QUE LA RANGEE RESTE DANS CE SENS POUR LES ECRANS <= MEDIUM  -->
+        <!-- FLEX COLUMN REVERSE POUR QUE L'ORDRE S'INVERSE QUAND LES DIVS PASSENT EN COLONNE  -->
+
         <div class="row mt-5 flex-md-row flex-column-reverse">
         
             <div class="col-md-6">
@@ -232,12 +235,13 @@
 <!-- ON REFAIT UN SLIDER MAIS EN AJOUTANT DES BLOCKQUOTES -->
 <section id="testimonials" class="p-5  bg-dark text-white">
     <div class="container">
-        <h2 class="text-center mb-4">Témoignages</h2>
+        <h2 class="text-center mb-4">- Témoignages -</h2>
         <div class="row text-center">
             <div class="col">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            <img src="/img/clouds-1845517_1920.jpg" class="rounded-circle mb-2" width="100px" alt="">
                             <blockquote class="blockquote ">
                                 <p class="mb-0 ">
                                     " La formation m'a permis d'apprendre différents langages de programmation et de
@@ -249,6 +253,7 @@
                             </blockquote>
                         </div>
                         <div class="carousel-item">
+                                <img src="/img/clouds-1845517_1920.jpg" class="rounded-circle mb-2" width="100px" alt="">
                             <blockquote class="blockquote">
                                 <p class="mb-0">
                                     " J'ai reçu plusieurs élèves en stage au printemps 2017. La pédagogie exercée à
@@ -260,6 +265,7 @@
                             </blockquote>
                         </div>
                         <div class="carousel-item">
+                                <img src="/img/clouds-1845517_1920.jpg" class="rounded-circle mb-2" width="100px" alt="">
                             <blockquote class="blockquote">
                                 <p class="mb-0">
                                     " Les formateurs ont été très présents tout au long de la formation. Leur
@@ -279,7 +285,7 @@
 </section>
 <!-- FOOTER -->
 <!-- FOOTER CLASSIQUE AVEC SCRIPT ACTUALISATION DE L'ANNEE  -->
-<footer id="main-footer" class="text-center p-4">
+<footer id="main-footer" class="text-center bg-light p-4">
     <div class="container">
         <div class="row">
             <div class="col">
